@@ -1,0 +1,38 @@
+/* ALGEMEEN */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* HEADER */
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/Lokaal.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header-overlay {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(88, 93, 95, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.header-overlay h1 {
+    font-family: 'myriad-pro', 'sans serif';
+    font-size: 5rem;
+    font-weight: 600;
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+}
