@@ -24,7 +24,7 @@ header {
     display: flex;
     width: 100%;
     height: 100%;
-    background-color: rgba(88, 93, 95, 0.7);
+    background-color: rgba(0, 0, 0, 0.25);
     justify-content: center;
     align-items: center;
 }
@@ -35,4 +35,47 @@ header {
     font-weight: 600;
     color: transparent;
     -webkit-text-stroke: 2px white;
+}
+
+
+/* SECTION */
+section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.section-item-img {
+    width: 45%;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-item-text {
+    display: flex;
+    width: 55%;
+    padding: 25px;
+    font-family: 'Calibri', 'sans serif';
+    align-items: center;
+}
+
+.section-item-text ul {
+    list-style-type: square;
+    margin-left: 30px;
+}
+
+.section-item-text h2 {
+    font-family: 'myriad-pro', 'sans serif';
+    font-size: 2rem;
+    text-align: center;
+}
+
+.section-item-text h3 {
+    font-family: 'myriad-pro', 'sans serif';
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+section#welkom .section-item-text {
+    background-color: #8bb93c;
 }
