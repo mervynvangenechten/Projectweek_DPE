@@ -64,13 +64,18 @@ section {
     margin-left: 30px;
 }
 
-.section-item-text h2 {
+.text-container {
+    width: 100%;
+    height: max-content;
+}
+
+h2 {
     font-family: 'myriad-pro', 'sans serif';
     font-size: 2rem;
     text-align: center;
 }
 
-.section-item-text h3 {
+h3 {
     font-family: 'myriad-pro', 'sans serif';
     font-size: 1.3rem;
     font-weight: 600;
@@ -78,4 +83,33 @@ section {
 
 section#welkom .section-item-text {
     background-color: #8bb93c;
+}
+
+section#iets-voor-jou .section-item-text {
+    background-color: #b9a92a;
+}
+
+section#lessenrooster .section-item-text {
+    background-color: #cf912b;
+}
+
+
+/* FOOTER */
+footer {
+    width: 100%;
+    padding: 15px;
+    line-height: 0.95rem;
+    font-family: 'Calibri', 'sans serif';
+    text-align: center;
+}
+
+footer a img {
+    width: 60px;
+    margin-bottom: 2.5px;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: black;
 }
