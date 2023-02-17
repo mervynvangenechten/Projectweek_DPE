@@ -46,14 +46,14 @@ section {
 }
 
 .section-item-img {
-    width: 45%;
+    width: 50%;
     background-size: cover;
     background-position: center;
 }
 
 .section-item-text {
     display: flex;
-    width: 55%;
+    width: 50%;
     padding: 25px;
     font-family: 'Calibri', 'sans serif';
     align-items: center;
@@ -77,11 +77,11 @@ h2 {
 }
 
 section#welkom .section-item-text {
-    background-color: #00FFFF;
+    background-color: #009FE3;
 }
 
 section#iets-voor-jou .section-item-text {
-    background-color: #FF00FF;
+    background-color: #E6007E;
 }
 
 section#lessenrooster .section-item-text {
